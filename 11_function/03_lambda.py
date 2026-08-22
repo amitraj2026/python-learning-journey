@@ -1,0 +1,11 @@
+square = lambda x: x*x
+sum = lambda x, y: x+y
+'''
+As good as writing
+def sum(a, b):
+    return a+b
+'''
+
+print(square(3))
+
+print(sum(3, 8))
